@@ -28,3 +28,5 @@ cd to the Adapt-Kcr fold
 
 python Adaptive_embed_Train_Kcr.py
 
+Note: Due to the randomness of the initial parameters in the process of feature extraction and training of the neural network, the final AUC result will have an error of about 0.001-0.01.
+
