@@ -348,6 +348,11 @@ if __name__ == '__main__':
 	device_cpu = torch.device("cpu") 
 	# wordvec_len =4
 	
+	k_folds = k
+	EPOCH = epoch
+	BATCH_SIZE = bs
+	LR = lr 
+	kernel_size = ks
 	
 	#!!! Model
 
