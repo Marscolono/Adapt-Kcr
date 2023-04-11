@@ -1,8 +1,6 @@
 # Adapt-Kcr
 
-Cite:
-
-Zutan Li+, Jingya Fang+, Shining Wang, Liangyun Zhang*, Yuanyuan Chen*, Cong Pian*. Adapt-Kcr: A novel deep learning framework for accurate prediction of lysine crotonylation sites based on learning embedding features and attention architecture. Briefings in Bioinformatic, 2022, bbac037. 
+Cite:Zutan Li+, Jingya Fang+, Shining Wang, Liangyun Zhang*, Yuanyuan Chen*, Cong Pian*. Adapt-Kcr: A novel deep learning framework for accurate prediction of lysine crotonylation sites based on learning embedding features and attention architecture. Briefings in Bioinformatic, 2022, bbac037. 
 
 
 
