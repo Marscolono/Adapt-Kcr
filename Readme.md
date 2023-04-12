@@ -1,4 +1,5 @@
 # Adapt-Kcr
+Cite:Zutan Li, Jingya Fang, Shining Wang, Liangyun Zhang*, Yuanyuan Chen*, Cong Pian*. Adapt-Kcr: A novel deep learning framework for accurate prediction of lysine crotonylation sites based on learning embedding features and attention architecture. Briefings in Bioinformatic, 2022, bbac037. 
 
 
 Protein lysine crotonylation (Kcr) is an important type of posttranslational modification that is associated with a wide range of biological processes. The identification of Kcr sites is critical to better understanding their functional mechanisms. However, the existing experimental techniques for detecting Kcr sites are cost-ineffective, to a great need for new computational methods to address this problem. We here describe Adapt-Kcr, an advanced deep learning model that utilizes adaptive embedding and is based on a convolutional neural network (CNN) together with a bi-directional long short-term memory network (BLSTM) and attention architecture.
@@ -27,6 +28,5 @@ python Adaptive_embed_Train_Kcr.py
 
 Note: Due to the randomness of the initial parameters in the process of feature extraction and training of the neural network, the final AUC result will have an error of about 0.001-0.01.
 
-Cite:Zutan Li, Jingya Fang, Shining Wang, Liangyun Zhang*, Yuanyuan Chen*, Cong Pian*. Adapt-Kcr: A novel deep learning framework for accurate prediction of lysine crotonylation sites based on learning embedding features and attention architecture. Briefings in Bioinformatic, 2022, bbac037. 
 
 
