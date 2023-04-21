@@ -397,7 +397,7 @@ if __name__ == '__main__':
 	#------------------->>>
 	
 	test_loader = Data.DataLoader(Data.TensorDataset(X_test, y_test), BATCH_SIZE, shuffle = False)
-	model = net
+	model = Adapt_emb_CNNLSTM_ATT().to(device)#net
 	
 	
 	# criterion = nn.CrossEntropyLoss()												
