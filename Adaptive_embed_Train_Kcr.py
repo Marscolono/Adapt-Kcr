@@ -642,7 +642,7 @@ if __name__ == '__main__':
 		val_loader = Data.DataLoader(Data.TensorDataset(X_valid, y_valid), BATCH_SIZE, shuffle = False)
 
 
-		model = net
+		model = Adapt_emb_CNNLSTM_ATT().to(device)#net
 		
 		# criterion = nn.CrossEntropyLoss()														#C
 		criterion = nn.BCELoss(size_average=False)												#B
