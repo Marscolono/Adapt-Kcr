@@ -409,7 +409,7 @@ if __name__ == '__main__':
 	#!!! Test
 	checkpoint = torch.load(Read_model_Dir + '/' + 'checkpoint.pth.tar') 
 	print('---------load_model: checkpoint.pth.tar----->>>>')
-	model = net#重建模型结构
+	model = Adapt_emb_CNNLSTM_ATT().to(device)#net#重建模型结构
 	
 	print('model loaded ---->>')
 	model.load_state_dict(checkpoint['state_dict'])
