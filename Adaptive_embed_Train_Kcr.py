@@ -569,10 +569,10 @@ if __name__ == '__main__':
 	# wordvec_len =4
 	
 	# k_folds = 10
-	EPOCH = EPOCH
-	BATCH_SIZE = bs
-	LR = lr
-	kernel_size = ks
+	EPOCH = 50 #80
+	BATCH_SIZE = 256
+	LR = 0.001 #0.0001
+	kernel_size = 10 #8
 	
 	#!!! Model
 	net = Adapt_emb_CNNLSTM_ATT().to(device)
